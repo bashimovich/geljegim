@@ -1,0 +1,17 @@
+.daily__news__similar {
+    width: 26%;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 1040px) {
+    .daily__news__similar {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .daily__news__similar {
+        width: 100%;
+    }
+}

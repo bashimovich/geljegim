@@ -1,0 +1,241 @@
+.navigation__wrapper {
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation__logo {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation__logo:hover {
+    cursor: pointer;
+}
+
+.navigation__logo p {
+    font-size: 4.8rem;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation__menu {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation__menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: all ease .6s;
+}
+
+.navigation__menu ul li {
+    margin: 0;
+    padding: 0;
+    margin-left: 1.5rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navigation__menu ul li a {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.parent__category:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.parent__category:hover>a {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+.parent__category:hover>svg {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+.navigation__menu ul li a.active {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+.navigation__menu ul li svg {
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 0;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.navigation__menu ul li svg:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.menu__icon {
+    display: none;
+}
+
+.parent__category {
+    position: relative;
+}
+
+.parent__category a {
+    text-transform: uppercase;
+}
+
+.sub__category {
+    position: absolute;
+    background-color: #fff;
+    top: 3.3rem;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 2px 0 2px -1px rgba(138, 137, 137, 0.3), -2px 0 2px -1px rgba(134, 134, 134, 0.3), 0 2px 2px -1px rgba(131, 129, 129, 0.3);
+    border: none;
+    outline: none;
+    z-index: 1000000;
+}
+
+.parent__category:hover>.sub__category {
+    visibility: visible;
+    opacity: 1;
+}
+
+.sub__category p {
+    color: rgb(131, 129, 129);
+    font-size: 1.4rem;
+    padding: .7rem 1rem;
+    margin: .5rem 0;
+}
+
+.sub__category p:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+@media only screen and (max-width: 1070px) {
+    .navigation__menu ul li {
+        margin-left: 1.4rem;
+        margin-left: 1.4rem;
+    }
+    .navigation__menu ul li a {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .navigation__menu ul li {
+        margin-left: 1rem;
+        margin-left: 1rem;
+    }
+    .navigation__menu ul li a {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .navigation__menu ul li {
+        margin-left: 1.2rem;
+        margin-left: .1rem;
+    }
+    .navigation__menu ul li a {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .navigation__wrapper {
+        position: relative;
+        width: 100%;
+    }
+    .navigation__menu ul {
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 3.1rem;
+        flex-direction: column;
+        z-index: 10;
+        background-color: var(--primary-color);
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    .navigation__menu ul.active {
+        height: 100vh;
+        overflow: auto;
+    }
+    .navigation__menu ul li {
+        width: 100%;
+    }
+    .navigation__menu ul li a {
+        width: 100%;
+    }
+    .menu__icon {
+        display: block;
+    }
+    .menu__icon svg {
+        font-size: 2.4rem;
+        color: #fff;
+    }
+}
+
+.navigation__logo {
+    width: 10%;
+}
+
+.navigation__logo img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 540px) {
+    .navigation__logo {
+        min-width: 30%;
+    }
+}
+
+.sub_parent_category {
+    position: relative;
+    transition: all .7s ease;
+}
+
+.child_category {
+    position: absolute;
+    left: 100%;
+    background-color: white;
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0;
+    top: 0;
+    transition: all .7s ease;
+    min-width: 150px;
+    box-shadow: 1px 2px 5px rgb(194, 193, 193);
+}
+
+.sub_parent_category:hover .child_category {
+    visibility: visible;
+    opacity: 1;
+}

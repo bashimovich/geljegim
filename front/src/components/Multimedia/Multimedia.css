@@ -1,0 +1,94 @@
+
+.multimedia{
+    background-color: #fff;
+    padding: 1rem;
+}
+.multimedia__header{
+    padding: 5px 0;
+    border-bottom: 3px solid var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.multimedia__header p{
+    color: var(--secondary-color);
+    outline: medium none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    letter-spacing: .2rem;
+    margin: 0;
+    transition: all ease .4s;
+}
+.multimedia__header p:hover, .multimedia__all a:hover{
+    color: var(--hover-color);
+    cursor: pointer;
+}
+.multimedia__all a{
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.multimedia__cards{
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.multimedia__card{
+    background-color: #161f29;
+}
+.multimedia__card__img{
+    overflow: hidden;
+    height: 200px;  
+
+}
+.multimedia__card__img img{
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    transition: all ease .4s;
+}
+.multimedia__card__img img:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+.multimedia__card__date{
+    color: #a9a9a9;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    
+}
+.multimedia__card__title{
+    color: #fff;
+    padding: 0 1rem;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    transition: all ease .4s;
+    
+}
+.multimedia__card__title:hover{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1020px) {
+    .multimedia__cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+} 
+@media only screen and (max-width: 740px) {
+    .multimedia__cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .multimedia__card__date{
+        font-size: 1.4rem;
+        
+    }
+    .multimedia__card__title{
+        font-size: 1.6rem;
+        
+    }
+}

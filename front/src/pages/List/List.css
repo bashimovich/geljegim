@@ -1,0 +1,101 @@
+.list__wrapper {
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.article__card {
+    padding: 1rem;
+    background-color: #f1f0f0;
+    border-radius: 10px;
+}
+
+.article__card__image {
+    height: 20rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.article__card__date {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 0 1rem;
+    transition: all ease .4s;
+}
+
+.article__card__date p {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.article__card__title {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    transition: all ease .4s;
+    text-align:justify;
+}
+
+.article__card:hover .article__card__title p {
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.article__card:hover .article__card__date {
+    padding: .1rem 1rem;
+}
+
+.article__card {
+    cursor: pointer;
+}
+
+.loading__spinner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* background-color: rgba(74, 77, 78, 0.3); */
+    background-color: #fff;
+    z-index: 1000;
+}
+
+@media only screen and (max-width: 1040px) {
+    .list__wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .list__wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .list__wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+}
+
+.daily_four_img_shimmer_in_list {
+    width: auto;
+    height: 200px;
+    margin-bottom: 10px;
+}

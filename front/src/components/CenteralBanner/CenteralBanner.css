@@ -1,0 +1,10 @@
+.centeral__banner__wrapper{
+    padding: 2rem 0;
+    width: 100%;
+}
+.centeral__banner__img{
+    height: 15rem;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}

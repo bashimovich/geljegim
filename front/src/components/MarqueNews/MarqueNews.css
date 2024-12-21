@@ -1,0 +1,34 @@
+.marque__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+.marque__title{
+    padding: 8px 12px;
+    background-color: #cccccc;
+}
+.marque__title p{
+    color: #444444;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 15px;
+}
+a.marque__news__list{
+    display: block;
+    background-color: #dedede;
+    padding: 8px 12px;
+    margin: 0 2px;
+    color: #505050;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all ease .4s;
+}
+a.marque__news__list:hover{
+    background-color: #bababa;
+    cursor: pointer;
+}

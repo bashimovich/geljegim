@@ -1,0 +1,141 @@
+.footer__wrapper {
+    background-color: var(--primary-color);
+    padding: 2rem 0;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+.footer__cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer__card {
+    height: 15rem;
+    width: 30%;
+}
+
+.footer__logo {
+    width: 100%;
+}
+
+.footer__logo img {
+    max-width: 15rem;
+}
+
+.footer__copy__right p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.footer__social__media__link svg {
+    width: 2.4rem;
+    height: 2.4rem;
+    color: #fff;
+    margin-right: .5rem;
+}
+
+.footer__social__media__link svg:hover {
+    cursor: pointer;
+}
+
+.footer__card__pages__p {
+    font-size: 2.4rem;
+}
+
+.footer__card__ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer__card__ul li {
+    list-style: none;
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
+}
+
+.footer__card__ul li:hover {
+    cursor: pointer;
+}
+
+.habarlasmak {
+    font-size: 2.4rem;
+}
+
+.address {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.footer__link {
+    color: #fff;
+    text-decoration: none;
+}
+.ticit__a{
+    color: #fff;
+    margin-left: .5rem;
+}
+@media only screen and (max-width: 1040px) {
+    .footer__copy__right p {
+        font-size: 1.4rem;
+    }
+    .footer__social__media__link svg {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+    .footer__card__pages__p {
+        font-size: 2.2rem;
+    }
+    .footer__card__ul li {
+        font-size: 1.4rem;
+    }
+    .habarlasmak {
+        font-size: 2.2rem;
+    }
+    .address {
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (max-width: 740px) {
+    .footer__copy__right p {
+        font-size: 1.2rem;
+    }
+    .footer__social__media__link svg {
+        width: 2rem;
+        height: 2rem;
+    }
+    .footer__card__pages__p {
+        font-size: 2rem;
+    }
+    .footer__card__ul li {
+        font-size: 1.2rem;
+    }
+    .habarlasmak {
+        font-size: 2rem;
+    }
+    .address {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .footer__copy__right p {
+        font-size: 1rem;
+    }
+    .footer__social__media__link svg {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    .footer__card__pages__p {
+        font-size: 1.4rem;
+    }
+    .footer__card__ul li {
+        font-size: 1rem;
+    }
+    .habarlasmak {
+        font-size: 1.4rem;
+    }
+    .address {
+        font-size: 1rem;
+    }
+}
