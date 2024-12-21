@@ -1,0 +1,28 @@
+.container {
+    max-width: 144rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px !important;
+    border: 2px solid transparent !important;
+    background-clip: content-box !important;
+}
+
+::-webkit-scrollbar-thumb:hover {}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px !important;
+}
+
+html,
+body {
+    scrollbar-width: thin !important;
+    scrollbar-width: 10%;
+}

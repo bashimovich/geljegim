@@ -1,0 +1,142 @@
+.news__content__and__adds {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.news__asside {
+    padding: 10px;
+    width: 65%;
+    background-color: #fff;
+}
+
+.img__container {
+    width: 250px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.content__container {
+    width: 66%;
+    padding: 0 10px;
+}
+
+.news__asside {
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+.news__results {
+    width: 100%;
+}
+
+.div__for__border {
+    padding: 20px 0;
+    border-bottom: .1rem solid rgb(164, 163, 163);
+}
+
+.result {
+    margin: 1rem 0;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.result h1 {
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    padding: 0;
+    margin: 0;
+    transition: all ease .4s;
+}
+
+.result h1:hover {
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+.result p {
+    font-size: 1.7rem;
+    padding: 0;
+    margin: 0;
+}
+
+.border__container {
+    border-top: 1px solid var(--primary-color)3c;
+}
+
+.views__time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.views__time span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.views__time span svg {
+    font-size: 2rem;
+    color: black;
+    margin-left: 3px;
+}
+
+@media only screen and (max-width: 1040px) {
+    .news__asside {
+        width: 100%;
+    }
+    .news__content__and__adds {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .news__asside {
+        width: 100%;
+    }
+    .news__content__and__adds {
+        flex-wrap: wrap;
+    }
+    .result {
+        flex-wrap: wrap;
+    }
+    .content__container {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .img__container {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .img__container {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .img__container {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+.news__results .eMdDtX {
+    display: flex;
+    padding: 0em !important;
+    width: 100%;
+    border-radius: 1em;
+    margin-bottom: 0px !important;
+    border: none !important;
+}

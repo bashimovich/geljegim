@@ -1,0 +1,121 @@
+.schools {
+    padding: 1rem 0;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    margin: 0;
+}
+
+.universities,
+.vacaitional {
+    background-color: #fff;
+    padding: 0 1rem;
+    margin: 0;
+}
+
+.schools__header {
+    padding: 5px 0;
+    border-bottom: 3px solid var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.schools__header p {
+    color: var(--secondary-color);
+    outline: medium none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    letter-spacing: .2rem;
+    margin: 0;
+    transition: all ease .4s;
+}
+
+.schools__header p:hover,
+.schools__all a:hover {
+    color: var(--hover-color);
+    cursor: pointer;
+}
+
+.schools__all a {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.schools__card {
+    width: 100%;
+    padding: .5rem 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.schools__card__img {
+    min-width: 20rem;
+    min-height: 15rem;
+    background-position: center;
+    background-size: cover;
+    margin-right: 1rem;
+}
+
+.schools__card__data {
+    color: #a9a9aa;
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 0;
+}
+
+.schools__card__name {
+    font-size: 1.6rem;
+    padding: 0;
+    margin: .5rem 0;
+    transition: all ease .4s;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.schools__card__name:hover {
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.schools__card__name:hover~.schools__card__description {
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.schools__card__description {
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 0;
+    transition: all ease .4s;
+}
+
+@media only screen and (max-width: 1040px) {
+    .schools__card__img {
+        height: 10rem;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .schools {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .schools__card__data {
+        font-size: 1.1rem;
+    }
+    .schools__card__name {
+        font-size: 1.2rem;
+    }
+    .schools__card__description {
+        font-size: 1.1rem;
+    }
+}
+
+.schools_shimmer {
+    height: 100px;
+    margin-top: 5px;
+}

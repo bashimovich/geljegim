@@ -1,0 +1,130 @@
+
+.search__content__and__adds {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.search__asside {
+    padding: 10px;
+    width: 100%;
+    background-color: #fff;
+}
+.search__asside.active__viewer{
+    width: calc(99% - 20px);
+}
+
+.search__asside .search__input {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.search__asside .search__input input {
+    padding: 7px;
+    font-size: 1.6rem;
+    width: 90%;
+    border: .1rem solid var(--secondary-color);
+    outline: .1rem solid var(--secondary-color);
+}
+
+.search__asside .search__input span {
+    background-color: var(--secondary-color);
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 8px;
+    border: .1rem solid var(--secondary-color);
+    /* outline: .1rem solid var(--secondary-color); */
+    transition: all ease .4s;
+    text-transform: uppercase;
+}
+
+.search__asside .search__input span:hover {
+    cursor: pointer;
+    background-color: var(--hover-color);
+}
+
+.search__results {
+    width: 100%;
+}
+
+.div__for__border {
+    padding: 20px 0;
+    border-bottom: .1rem solid rgb(164, 163, 163);
+}
+
+.result {
+    margin: 1rem 0;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.result h1 {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    padding: 0;
+    margin: 0;
+    transition: all ease .4s;
+}
+
+.result h1:hover {
+    cursor: pointer;
+    color: var(--hover-color);
+}
+
+.result p {
+    font-size: 1.3rem;
+    padding: 0;
+    margin: 0;
+}
+
+
+.laws__flex{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.laws__list{
+    width: 100%;
+}
+.pdf__viewer{
+    width: 0;
+    transition: all ease .4s;
+    background-color: #fff;
+    padding: 10px;
+    visibility: hidden;
+}
+.pdf__viewer.active__viewer{
+    width: calc(99% - 20px);
+    visibility: visible;
+}
+iframe{
+    width: 100%;
+    height: 100vh;
+}
+.close__view {
+    text-align: right;
+    transition: all ease .2s;
+    visibility: hidden;
+}
+.close__view.active__close {
+    visibility: visible;
+}
+.close__view svg{
+    width: 24px;
+    height: 24px;
+}
+.close__view svg:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width: 1040px) {
+}
+@media only screen and (max-width: 740px) {
+    .laws__flex{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 540px) {
+}
