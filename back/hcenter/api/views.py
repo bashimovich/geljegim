@@ -42,7 +42,7 @@ class MainArticlesViewSet(ReadOnlyModelViewSet):
     serializer_class = ArticleSerializer
 
 class FourArticlesViewSet(ReadOnlyModelViewSet):
-    queryset = Articles.objects.filter(is_active=True, is_publish = True, typear="fourar").order_by('-id')[:4]
+    queryset = Articles.objects.filter(is_active=True, is_publish = True, typear="fourar").order_by('-id')[:2]
     serializer_class = ArticleSerializer
 
 class MultimediaArticlesViewSet(ReadOnlyModelViewSet):
