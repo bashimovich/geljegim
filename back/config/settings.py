@@ -26,15 +26,15 @@ SECRET_KEY = 'django-insecure-!c*pr1td36_hpn%%$6*f3rw(9u53%2@&$s8u!l9tk^z9)r@zbf
 DEBUG = True
 
 CORS_ALLOW_ALL_ORIGINS = True
-#ALLOWED_HOSTS = ["*"]
-ALLOWED_HOSTS = [
-        'gel.edu.tm', 
-        'www.gel.edu.tm', 
-        '95.85.126.113',
-        ]
-CSRF_TRUSTED_ORIGINS = [
-        "https://gel.edu.tm:8443"
-        ]
+ALLOWED_HOSTS = ["*"]
+# ALLOWED_HOSTS = [
+#         'gel.edu.tm', 
+#         'www.gel.edu.tm', 
+#         '95.85.126.113',
+#         ]
+# CSRF_TRUSTED_ORIGINS = [
+#         "https://gel.edu.tm:8443"
+#         ]
 
 
 # Application definition
@@ -166,6 +166,6 @@ DATA_UPLOAD = {
 }
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 40,
+    'PAGE_SIZE': 15,
 }
 
