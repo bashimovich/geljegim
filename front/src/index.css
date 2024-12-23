@@ -1,7 +1,13 @@
 @import './colors.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
     font-size: 10px;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 body {

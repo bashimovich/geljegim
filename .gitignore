@@ -1,0 +1,152 @@
+# Build artifacts
+build/
+dist/
+
+# IDE specific files
+.vscode/
+*.suo
+*.user
+*.sln
+*.csproj
+*.vspscc
+*.scc
+*.userprefs
+*.tmp
+*.vssscc
+*.ncb
+*.aps
+*.sdf
+*.suo
+*.user
+*.pdb
+*.idb
+*.opendb
+*.VC.db
+*.VC.db.user
+*.opendb
+*.VC.db
+*.VC.db.user
+*.sdf
+*.suo
+*.user
+*.pdb
+*.idb
+*.opendb
+*.VC.db
+*.VC.db.user
+*.opendb
+*.VC.db
+*.VC.db.user
+*.sdf
+*.suo
+*.user
+*.pdb
+*.idb
+*.opendb
+*.VC.db
+*.VC.db.user
+
+# Local environment
+.env
+.env.local
+
+# Testing
+coverage/
+test-results/
+jest/
+
+# Editor files
+*.sublime-project
+*.sublime-workspace
+
+# IDE files
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+
+# Temporary files
+*.log
+*.tmp
+*.sock
+
+# Generated files
+*.sessions
+*.sqlite3
+
+# npm/yarn cache
+/node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Editor history
+.history/
+# Django-specific files
+*.pyc
+*.pyo
+__pycache__/
+.DS_Store
+.idea/
+
+# Django media files
+media/
+
+# Django static files
+static/
+
+# Build files
+dist/
+build/
+
+# Test files
+*.egg-info/
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+# Local settings files
+local_settings.py
+env/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Editor files
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+
+# Generated files
+*.sessions
+*.sqlite3
+
+# Temporary files
+*.log
+*.tmp
+*.sock
+
+# Environment variables
+.env
+.env.development
+.env.production
+
+# Docker files
+docker-compose.yml
+docker-compose.override.yml
+Dockerfile
+
+# Other common files
+*.swp
+*.bak
+/node_modules/
+front/node_modules/
+/env/
+back/env/
+./front/src/utils/axiosInstance.js
