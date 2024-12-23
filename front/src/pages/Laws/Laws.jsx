@@ -67,7 +67,7 @@ function Laws() {
                     setTotalItem(res.data.count)
                     setPreviousPage(res.data.previous)
                     setNextPage(res.data.next)
-                    LastPageFunc(TotalItem)
+                    LastPageFunc(res.data.count)
                     setCurrentPage(page)
                     setLawsLoading(false)
 

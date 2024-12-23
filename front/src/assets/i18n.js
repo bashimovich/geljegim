@@ -33,6 +33,8 @@ i18n
                     "school": "EDUCATION",
                     "work": "JOBS",
                     "digitalization": "DIGITALIZATION",
+                    "next":"Next",
+                    "previous":"Provious"
                 }
             },
             tm: {
@@ -60,6 +62,8 @@ i18n
                     "school": "BILIM ULGAMY",
                     "work": "IŞ ORUNLARY",
                     "digitalization": "SANLY BILIM",
+                    "next":"Yza",
+                    "previous":"Indiki"
                 }
             },
             ru: {
@@ -87,6 +91,8 @@ i18n
                     "school": "ОБРАЗОВАНИЕ",
                     "work": "РАБОЧИЕ МЕСТА",
                     "digitalization": "ЦИФРОВИЗАЦИЯ",
+                    "next":"Далее",
+                    "previous":"Предварительный"
                 }
             }
 
