@@ -62,8 +62,8 @@ i18n
                     "school": "BILIM ULGAMY",
                     "work": "IŞ ORUNLARY",
                     "digitalization": "SANLY BILIM",
-                    "next":"Yza",
-                    "previous":"Indiki"
+                    "next":"Indiki",
+                    "previous":"Yza"
                 }
             },
             ru: {
